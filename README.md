@@ -4,7 +4,7 @@ For this project, we will analyze recipes from Food.com with the goal to discove
 
 Before starting the analysis, we tried different methods in feature engineering, such as encoding the data, log transformation and normalization. 
 
-**Supervised learning:**
+**Supervised Learning:**
 
 We have applied a variety of supervised learning models, including Logistic Regression, XGBoost Classifier, and Neural Network, to analyze recipe data.
 
@@ -23,3 +23,12 @@ We have applied a variety of supervised learning models, including Logistic Regr
 |                     |            | Positive   | 25%      | 23%      |
 | Neural Network      | Negative   | Negative   | 45%      | 7%       |
 |                     |            | Positive   | 20%      | 28%      |
+
+**Unsupervised Learning**
+For unsupervised learning, we used clustering and topic modeling methods to discover properties of the dataset. 
+
+***Clustering***
+For clustering, we utilized different methods to vectorize the natural language text of recipes and reviews then used Kmeans clustering to cluster the vectors. We vectorized the data using Sentence Transformers, Word2Vec, and TF-IDF.
+
+***Topic Modeling***
+For topic modeling, we used Latent Dirichlet Analysis (LDA) and Singular Value Decomposition (SVD) for Latent Semantic Indexing (LSI).
