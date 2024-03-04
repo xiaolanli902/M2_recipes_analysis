@@ -32,12 +32,9 @@ For unsupervised learning, we used clustering and topic modeling methods to disc
 | Clustering Model                            | Cluster Size Ratio | Cluster Purity | NMI    |
 |---------------------------------------------|---------------------|----------------|--------|
 | KMeans                                      | 0.5984              | 0.6716         | 0.0232 |
-| Agglomerative, with Euclidean distance      | 0.1643              | -              | 0.6716 |
-| Agglomerative, with L2 distance             | -                   | 0.6716         | 0.0013 |
-|                                             | -                   | -              | 0.0006 |
-|                                             | 0.6722              | -              | 0.0021 |
-| Agglomerative, with cosine distance         | -                   | -              | 0.0006 |
-|                                             | 0.6716              | -              | 0.0007 |
+| Agglomerative, with Euclidean distance      | 0.1643              | 0.6716         | 0.0013 |
+| Agglomerative, with L2 distance             | 0.0006              | 0.6722         | 0.0021 |
+| Agglomerative, with cosine distance         | 0.0006              | 0.6716         | 0.0007 |
 
 ***Topic Modeling***
 | Rating | Recipes                                                                             | Reviews                                                                                                       |
