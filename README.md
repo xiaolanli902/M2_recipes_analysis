@@ -26,12 +26,36 @@ We have applied a variety of supervised learning models, including Logistic Regr
 
 **Unsupervised Learning**
 
-For unsupervised learning, we used clustering and topic modeling methods to discover properties of the dataset. 
+For unsupervised learning, we used clustering and topic modeling methods to discover properties of the dataset. In clustering, we utilized different methods to vectorize the natural language text of recipes and reviews then used Kmeans clustering to cluster the vectors. We vectorized the data using Sentence Transformers, Word2Vec, and TF-IDF. In topic modeling, we used Latent Dirichlet Analysis (LDA) and Singular Value Decomposition (SVD) for Latent Semantic Indexing (LSI).
 
 ***Clustering***
-
-For clustering, we utilized different methods to vectorize the natural language text of recipes and reviews then used Kmeans clustering to cluster the vectors. We vectorized the data using Sentence Transformers, Word2Vec, and TF-IDF.
+| Clustering Model                            | Cluster Size Ratio | Cluster Purity | NMI    |
+|---------------------------------------------|---------------------|----------------|--------|
+| KMeans                                      | 0.5984              | 0.6716         | 0.0232 |
+| Agglomerative, with Euclidean distance      | 0.1643              | -              | 0.6716 |
+| Agglomerative, with L2 distance             | -                   | 0.6716         | 0.0013 |
+|                                             | -                   | -              | 0.0006 |
+|                                             | 0.6722              | -              | 0.0021 |
+| Agglomerative, with cosine distance         | -                   | -              | 0.0006 |
+|                                             | 0.6716              | -              | 0.0007 |
 
 ***Topic Modeling***
+| Rating | Recipes                             | Reviews                                       |
+|--------|-------------------------------------|-----------------------------------------------|
+| 5      | Small appliance, Stove top         | Brunch, Breakfast, Savory, European           |
+|        |                                     | Kid friendly, Large groups, Lunch             |
+|        |                                     | Yum, Good, Fantastic                          |
+|        | Easy to Make                        | Chocolate, Fudge, Cider                       |
+| 3      | Snacks, Lunch                      | Brunch, Breads, Potato                        |
+|        |                                     | Kid friendly, Large groups, Dish              |
+|        | Little time                         | Nothing spectacular, Good or bland flavor     |
+|        |                                     | Spices, Nutmeg, Cinnamon                      |
+| 1      | Weeknight, Vegan, Summer           | European, Quick, Small appliance              |
+|        |                                     | Cookie, Brownie, Dessert                      |
+|        | Offensive name for minorities      | Ok, Regular, Plain                            |
+|        | No rating                          | Chicken, Poultry, Snacks                      |
+|        |                                     | European, Dessert, Mexican                    |
+|        |                                     | Breads, Kid friendly, Free                    |
+|        |                                     | N/A                                           |
 
-For topic modeling, we used Latent Dirichlet Analysis (LDA) and Singular Value Decomposition (SVD) for Latent Semantic Indexing (LSI).
+*** A full result can be found in pdf file.
