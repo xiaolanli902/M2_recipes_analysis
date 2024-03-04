@@ -40,22 +40,12 @@ For unsupervised learning, we used clustering and topic modeling methods to disc
 |                                             | 0.6716              | -              | 0.0007 |
 
 ***Topic Modeling***
-| Rating | Recipes                             | Reviews                                       |
-|--------|-------------------------------------|-----------------------------------------------|
-| 5      | Small appliance, Stove top         | Brunch, Breakfast, Savory, European           |
-|        |                                     | Kid friendly, Large groups, Lunch             |
-|        |                                     | Yum, Good, Fantastic                          |
-|        | Easy to Make                        | Chocolate, Fudge, Cider                       |
-| 3      | Snacks, Lunch                      | Brunch, Breads, Potato                        |
-|        |                                     | Kid friendly, Large groups, Dish              |
-|        | Little time                         | Nothing spectacular, Good or bland flavor     |
-|        |                                     | Spices, Nutmeg, Cinnamon                      |
-| 1      | Weeknight, Vegan, Summer           | European, Quick, Small appliance              |
-|        |                                     | Cookie, Brownie, Dessert                      |
-|        | Offensive name for minorities      | Ok, Regular, Plain                            |
-|        | No rating                          | Chicken, Poultry, Snacks                      |
-|        |                                     | European, Dessert, Mexican                    |
-|        |                                     | Breads, Kid friendly, Free                    |
-|        |                                     | N/A                                           |
+| Rating | Recipes                                                                             | Reviews                                                                                                       |
+|--------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| 5      | Small appliance, Stove top, Brunch, Breakfast, Savory, European, Kid friendly, Large groups, Lunch | Yum, Good, Fantastic, Easy to Make, Chocolate, Fudge, Cider                                             |
+| 3      | Snacks, Lunch, Brunch, Breads, Potato, Kid friendly, Large groups, Dish            | Nothing spectacular, Good or bland flavor, Spices, Nutmeg, Cinnamon, Little time                          |
+| 1      | Weeknight, Vegan, Summer, European, Quick, Small appliance, Cookie, Brownie, Dessert | Ok, Regular, Plain, Didn’t like, Hated, Offensive name for minorities                                      |
+|        | Chicken, Poultry, Snacks, European, Dessert, Mexican, Breads, Kid friendly, Free   | N/A                                                                                                           |
+
 
 *** A full result can be found in pdf file.
