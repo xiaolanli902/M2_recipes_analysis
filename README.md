@@ -24,6 +24,7 @@ We have applied a variety of supervised learning models, including Logistic Regr
 | Neural Network      | Negative   | Negative   | 45%      | 7%       |
 |                     |            | Positive   | 20%      | 28%      |
 
+
 **Unsupervised Learning**
 
 For unsupervised learning, we used clustering and topic modeling methods to discover properties of the dataset. In clustering, we utilized different methods to vectorize the natural language text of recipes and reviews then used Kmeans clustering to cluster the vectors. We vectorized the data using Sentence Transformers, Word2Vec, and TF-IDF. In topic modeling, we used Latent Dirichlet Analysis (LDA) and Singular Value Decomposition (SVD) for Latent Semantic Indexing (LSI).
