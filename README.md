@@ -15,14 +15,15 @@ We have applied a variety of supervised learning models, including Logistic Regr
 | XGBoost           | 0.601814        | 0.001843                       |
 | Neural Network    | 0.729215        | 0.001828                       |
 
-| Model               | True Label | Prediction | Negative | Positive |
-|---------------------|------------|------------|----------|----------|
-| Logistic Regression | Negative   | Negative   | 45%      | 7%       |
-|                     |            | Positive   | 22%      | 26%      |
-| XGBoost             | Negative   | Negative   | 37%      | 15%      |
-|                     |            | Positive   | 25%      | 23%      |
-| Neural Network      | Negative   | Negative   | 45%      | 7%       |
-|                     |            | Positive   | 20%      | 28%      |
+| Model             | True Label | Prediction                       |
+|                   |            |   Negative | Positive            |
+|-------------------|------------|------------|----------|----------|
+| Logistic Regression | Negative | Negative   | 45%      | 7%       |
+|                    | Positive | Positive   | 22%      | 26%      |
+| XGBoost           | Negative | Negative   | 37%      | 15%      |
+|                    | Positive | Positive   | 25%      | 23%      |
+| Neural Network    | Negative | Negative   | 45%      | 7%       |
+|                    | Positive | Positive   | 20%      | 28%      |
 
 
 **Unsupervised Learning**
