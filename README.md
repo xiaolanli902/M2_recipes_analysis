@@ -15,7 +15,7 @@ We have applied a variety of supervised learning models, including Logistic Regr
 | XGBoost           | 0.601814        | 0.001843                       |
 | Neural Network    | 0.729215        | 0.001828                       |
 
-| Confusion Matrices   | True Label | Prediction            |
+| Confusion Matrices   | True Label | Prediction |          |
 |----------------------|------------|------------|----------|
 |                      |            | Negative   | Positive |
 | Logistic Regression  | Negative   | 45%        | 7%       |
